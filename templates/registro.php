@@ -4,8 +4,8 @@
          <!-- row 1 -->
         <div class="form-group row name-surname">
           <div class="form-group col-md-6">
-            <label for="nombre" class="col-sm-2 col-form-label">Nombre*</label>
-            <input type="text" class="form-control" id="nombre" name="name" placeholder="Nombre">
+            <label for="name" class="col-sm-2 col-form-label">Nombre*</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Nombre">
           </div>
            <div class="form-group col-md-6">
             <label for="surname" class="col-sm-2 col-form-label">Apellidos*</label>
@@ -42,21 +42,22 @@
         <!-- row 3 -->
         <div class="form-row">
             <label for="address">Dirección</label>
-            <input type="text" class="form-control" id="address" placeholder="Dirección">
+            <input type="text" class="form-control" id="address" name="address" placeholder="Dirección">
         </div>
         <!-- row 4 -->
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="town">Municipio</label>
-            <input type="text" class="form-control" id="town" placeholder="Municipio">
+            <input type="text" class="form-control" id="town" name="town" placeholder="Municipio">
           </div>
-          <div class="form-group col-md-4">
+         <!-- Comento este campo hasta solucionar como incluir menú desplegable que mande id referenciado en tabla nacionalities -->
+         <!-- <div class="form-group col-md-4">
             <label for="nationality">Nacionalidad</label>
-            <input type="text" class="form-control" id="nationality" placeholder="Nacionalidad">
-          </div>
+            <input type="text" class="form-control" id="nationality" name="nationality" placeholder="Nacionalidad">
+          </div> -->
           <div class="form-group col-md-2">
             <label for="cp">Código Postal</label>
-            <input type="text" class="form-control" id="cp" placeholder="Código Postal">
+            <input type="text" class="form-control" id="cp"  name="cp" placeholder="Código Postal">
           </div>
         </div>
          <!-- row ¿? -->

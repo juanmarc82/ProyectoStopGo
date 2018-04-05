@@ -1,0 +1,1 @@
+Registro OK. <a href="<?php echo $root ?>login/">Login aquí</a>
