@@ -502,7 +502,7 @@ body {
 }
 @media only screen and (min-width: 1170px) {
   .close-form {
-    display: none;
+    //display: none;
   }
 }
 
@@ -522,10 +522,10 @@ body {
 	padding-bottom: 2px;
 	border-bottom: 1px solid rgba(246, 71, 71, 1);
 }
-
+/*
 #login, #signup, #reset-password {
   display: none;
-}
+}*/
 
 #login.is-selected, #signup.is-selected, #reset-password.is-selected {
   display: block;

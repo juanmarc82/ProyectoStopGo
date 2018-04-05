@@ -16,10 +16,10 @@
         
         
         <?php if(isset($_SESSION["usuario"])) { ?>
-        <<!-- Si usuario conectado muestro... -->
+        <!-- Si usuario conectado muestro... -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <?php echo $_SESSION["usuario"]["nombre"] ?>
+          <?php echo $_SESSION["usuario"]["Name"] ?>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="<?php echo $root?>mi-cuenta/">Mi cuenta</a>

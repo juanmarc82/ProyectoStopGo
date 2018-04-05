@@ -19,7 +19,6 @@ if(isset($_SESSION["usuario"])) {
 
 include("../templates/main.php");
 
-require '../endApp.php';
 
 
 

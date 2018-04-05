@@ -1,1 +1,3 @@
-Bienvenido: <?php echo $_SESSION["usuario"]["nombre"]?>
+
+
+Bienvenido: <?php echo $_SESSION["usuario"]["Name"];

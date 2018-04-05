@@ -30,10 +30,10 @@
                 <label for="nie_nif" class="col-sm-2 col-form-label">NIE-NIF*</label>
                 <input type="text" class="form-control" id="nie_nif" name="nie_nif" placeholder="NIE-NIF*">
             </div>
-            <div class="form-group col-md-6">
+            <!--<div class="form-group col-md-6">
                 <label for="datebirth" class="col-sm-2 col-form-label">Fecha nacimiento*</label>
                 <input type="text" class="form-control" id="datebirth" name="datebirth" placeholder="Ejemplo DD/MM/YYYY*">
-            </div>
+            </div> -->
             <div class="form-group col-md-6">
                 <label for="driver" class="col-sm-2 col-form-label">¿Quieres ser conductor?</label>
                 <input type="checkbox" class="form-control" id="driver" name="driver">
@@ -55,12 +55,12 @@
             <label for="nationality">Nacionalidad</label>
             <input type="text" class="form-control" id="nationality" name="nationality" placeholder="Nacionalidad">
           </div> -->
-          <div class="form-group col-md-2">
+         <!-- <div class="form-group col-md-2">
             <label for="cp">Código Postal</label>
             <input type="text" class="form-control" id="cp"  name="cp" placeholder="Código Postal">
-          </div>
+          </div> -->
         </div>
-         <!-- row ¿? -->
+         <!-- row 5 -->
         <div class="form-group row  password">
             <div class="form-group col-md-6">
                 <label for="password" class="col-sm-2 col-form-label">Contraseña*</label>

@@ -4,18 +4,18 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/wamp64/www/StopGo/registro/index.php</file>
-            <file>file:/C:/wamp64/www/StopGo/endApp.php</file>
-            <file>file:/C:/wamp64/www/StopGo/templates/footer.php</file>
-            <file>file:/C:/wamp64/www/StopGo/js/main.js</file>
+            <file>file:/C:/wamp64/www/StopGo/mi-cuenta/index.php</file>
+            <file>file:/C:/wamp64/www/StopGo/templates/login.php</file>
+            <file>file:/C:/wamp64/www/StopGo/templates/auth/mi-cuenta.php</file>
             <file>file:/C:/wamp64/www/StopGo/index.php</file>
             <file>file:/C:/wamp64/www/StopGo/templates/home.php</file>
             <file>file:/C:/wamp64/www/StopGo/templates/menu.php</file>
-            <file>file:/C:/wamp64/www/StopGo/index2.php</file>
+            <file>file:/C:/wamp64/www/StopGo/templates/auth/bienvenida.php</file>
             <file>file:/C:/wamp64/www/StopGo/startApp.php</file>
             <file>file:/C:/wamp64/www/StopGo/templates/main.php</file>
             <file>file:/C:/wamp64/www/StopGo/registro/registrar.php</file>
             <file>file:/C:/wamp64/www/StopGo/templates/registro.php</file>
-            <file>file:/C:/wamp64/www/StopGo/css/main.css</file>
+            <file>file:/C:/wamp64/www/StopGo/login/auth.php</file>
         </group>
     </open-files>
 </project-private>

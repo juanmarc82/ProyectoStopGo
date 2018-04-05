@@ -1,7 +1,7 @@
 <?php
 $root = "/StopGo/";
 $serverName = "localhost"; //serverName\instanceName
-$connectionInfo = array( "Database"=>"ProyectoModulo1", "UID"=>"Juanma", "PWD"=>"stopgo");
+$connectionInfo = array( "Database"=>"ProyectoModulo1", "UID"=>"JuanmaAdmin", "PWD"=>"123456");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 
 if( $conn ) {

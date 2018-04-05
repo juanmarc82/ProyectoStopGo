@@ -8,11 +8,11 @@ $usuario_surname = $_POST["surname"];
 $usuario_email = $_POST["email"];
 $usuario_phone= $_POST["phone"];
 $usuario_nie_nif = $_POST["nie_nif"];
-$usuario_datebirth = $_POST["datebirth"];
+//$usuario_datebirth = $_POST["datebirth"];
 $usuario_driver = $_POST["driver"];
 $usuario_address = $_POST["address"];
 //$usuario_nationality = $_POST["nationality"];
-$usuario_cp = $_POST["cp"];
+//$usuario_cp = $_POST["cp"];
 $usuario_town = $_POST["town"];
 //$usuario_photo= $_POST["photo"];
 $usuario_password = $_POST["password"];
@@ -23,22 +23,26 @@ $usuario_password = $_POST["password"];
 $sql = "EXEC usp_Users_InsertNewUser" 
         . " @Name = '$usuario_name',@Surname = '$usuario_surname',@NIFNIE = '$usuario_nie_nif',@Email = '$usuario_email', " 
         . "@Phone = '$usuario_phone',@Password = '$usuario_password', " 
-        . "@DateBirth = '$usuario_datebirth',@Address = '$usuario_address', @CP = '$usuario_cp',@Town = '$usuario_town'";
+        . "@Address = '$usuario_address',@Town = '$usuario_town'";
 // COMENTO ESTE CAMPO HASTA SOLUCIONAR INCLUSIÓN VIA ID referenciado. @NationalityID = '$usuario_nationality'
 $result = sqlsrv_query($conn,$sql);
+echo $sql;
 
 //ejemplo registro completo, redireccion a logearse
 if($result){
-  $template_seccion = "../login/index.php";
- }   
+  
+  $template_seccion = "../templates/login.php"; // aqui no meto la template si no cargo la pagina desde el index de login y dentro de el cargo el template de login.
+  include ("../login/index.php");
+  }   
    
-//include ("../login/index.php");
-/* }   
+
+   
   else {
-    $error = "Error de autentificación";
+      echo 'Estoy aqui';
+      $error = "Error de autentificación";
     $template_seccion = "../templates/auth/error_registro.php";
   }
- */
+ 
 
 
 
@@ -75,6 +79,3 @@ if($result){
 
 } */
 include("../templates/main.php");
-
-require '../endApp.php';
-
