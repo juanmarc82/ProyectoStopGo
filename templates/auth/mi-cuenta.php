@@ -6,12 +6,12 @@
         </div>
     </div>
     
-    <div class="row my-5">
+    <div class="row my-5 datos-usuario-texto" >
         <div class="col-sm-2 text-right">
-            <label>Nombre:</label>
+            <label>Nombre completo:</label>
         </div>
         <div class="col-sm-10">
-            <?php echo $_SESSION["usuario"]["Name"] ?>
+            <?php echo $_SESSION["usuario"]["Name"] . " " . $_SESSION["usuario"]["Surname"]?>
         </div>
         
         <div class="col-sm-2 text-right">
@@ -32,7 +32,27 @@
         <div class="col-sm-10">
             <?php echo $_SESSION["usuario"]["Address"] ?>
         </div>
-    </div> 
+        <!--    <label>Mi Vehículo:</label>
+        </div>
+        <div class="col-sm-10">
+            <?php //echo $_SESSION["usuario"]["VehicleID"] ?>
+        </div> -->
+        <div class="col-sm-2 text-right">
+            <label>Dirección:</label>
+        </div>
+        <div class="col-sm-10">
+            <?php echo $_SESSION["usuario"]["Address"] ?>
+        </div>
+    </div>
+    <!-- descomentar al agregar foto a usuario
+    <div class="row my-5 datos-usuario-foto">
+        <div class="col-sm-2 text-right">
+            <label>Fotografía:</label>
+        </div>
+        <div class="col-sm-10">
+            <?php// echo $_SESSION["usuario"]["Photo"] ?>
+        </div> -->
+    </div>
 </div>
 
 

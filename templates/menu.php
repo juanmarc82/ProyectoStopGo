@@ -24,7 +24,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="<?php echo $root?>mi-cuenta/">Mi cuenta</a>
             <!-- Crear php vehículo.php-->
-            <a class="dropdown-item" href="#">Vehículo</a>
+            <a class="dropdown-item" href="<?php echo $root?>vehiculo/">Vehículo</a>
             <!-- Crear php saldo.php-->
             <a class="dropdown-item" href="#">Saldo</a>
             <div class="dropdown-divider"></div>

@@ -1,25 +1,18 @@
 <?php
-
+session_start();
 require '../startApp.php';
-$titulo= "Registrar | Usuario";
+$_SESSION["usuario"]; 
+$titulo= "Registrar vehiculo | " .  $_SESSION['usuario']['Name'] . " ";
 
-$usuario_name = $_POST["name"];
-$usuario_surname = $_POST["surname"];
-$usuario_email = $_POST["email"];
-$usuario_phone= $_POST["phone"];
-$usuario_nie_nif = $_POST["nie_nif"];
-//$usuario_datebirth = $_POST["datebirth"];
-$usuario_driver = $_POST["driver"];
-$usuario_address = $_POST["address"];
-//$usuario_nationality = $_POST["nationality"];
-//$usuario_cp = $_POST["cp"];
-$usuario_town = $_POST["town"];
-//$usuario_photo= $_POST["photo"];
-$usuario_password = $_POST["password"];
+$vehiculo_brand = $_POST["brand"];
+$usuario_model = $_POST["model"]; 
+$usuario_color = $_POST["color"];
+$usuario_licensePlate = $_POST["licensePlate"];
 ?>
 <!--/* Funcionalidad Query SQL SERVER -- Adaptar a mi app -- */ -->
 <!-- ,@Photo = '$usuario_photo'-->
 <?php
+/*Cambiar Query para insertar vehiculo */ 
 $sql = "EXEC usp_Users_InsertNewUser" 
         . " @Name = '$usuario_name',@Surname = '$usuario_surname',@NIFNIE = '$usuario_nie_nif',@Email = '$usuario_email', " 
         . "@Phone = '$usuario_phone',@Password = '$usuario_password', " 
