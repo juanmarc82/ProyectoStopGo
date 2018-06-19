@@ -33,7 +33,7 @@ BEGIN
 		BEGIN TRANSACTION;
 		
 				SET @UserID = SCOPE_IDENTITY();				-- Recover last ID, SET next one.
-				SET @Active = 1;							-- Turn on User Activity.
+				SET @Active = 1;					-- Turn on User Activity.
 				SET @RegisterDate = GETDATE();				-- Recover Register Date.
 
 				INSERT INTO [Users]
