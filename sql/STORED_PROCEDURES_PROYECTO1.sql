@@ -106,8 +106,8 @@ BEGIN
 		BEGIN TRANSACTION;	
 		
 				SET @UserDriverID = SCOPE_IDENTITY();		-- Recover last ID, SET next one.
-				SET @Active = 1;							-- Turn on User Activity.
-				SET @RegisterDate = GETDATE();				-- Recover Register Date.
+				SET @Active = 1;				-- Turn on User Activity.
+				SET @RegisterDate = GETDATE();			-- Recover Register Date.
 
 				INSERT INTO UsersDrivers
 						(
