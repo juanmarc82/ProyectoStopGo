@@ -56,7 +56,7 @@ BEGIN
 								, @Name		
 								, @Surname	
 								, @NIFNIE	
-								, @DateBirth
+								, @DateBirth 
 								, @Address	
 								, @CP		
 								, @Town		
