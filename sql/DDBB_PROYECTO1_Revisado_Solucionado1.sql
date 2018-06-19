@@ -30,7 +30,7 @@ BEGIN
 END
 ELSE
 BEGIN
-    PRINT 'Table doesn¥t exists, drop not necessary';
+    PRINT 'Table doesn¬¥t exists, drop not necessary';
 END
 GO
 
@@ -50,51 +50,51 @@ ADD CONSTRAINT PK_Nationalities_NationalityID PRIMARY KEY (NationalityID);
 GO   
 
 
-INSERT INTO Nationalities VALUES ( 0, 4, 'AF', 'AFG', 'Afganist·n');
+INSERT INTO Nationalities VALUES ( 0, 4, 'AF', 'AFG', 'Afganist√°n');
 INSERT INTO Nationalities VALUES ( 0, 248, 'AX', 'ALA', 'Islas Gland');
 INSERT INTO Nationalities VALUES ( 0, 8, 'AL', 'ALB', 'Albania');
 INSERT INTO Nationalities VALUES ( 1, 276, 'DE', 'DEU', 'Alemania');
 INSERT INTO Nationalities VALUES ( 0, 20, 'AD', 'AND', 'Andorra');
 INSERT INTO Nationalities VALUES ( 0, 24, 'AO', 'AGO', 'Angola');
 INSERT INTO Nationalities VALUES ( 0, 660, 'AI', 'AIA', 'Anguilla');
-INSERT INTO Nationalities VALUES ( 0, 10, 'AQ', 'ATA', 'Ant·rtida');
+INSERT INTO Nationalities VALUES ( 0, 10, 'AQ', 'ATA', 'Ant√°rtida');
 INSERT INTO Nationalities VALUES ( 0, 28, 'AG', 'ATG', 'Antigua y Barbuda');
 INSERT INTO Nationalities VALUES ( 0, 530, 'AN', 'ANT', 'Antillas Holandesas');
-INSERT INTO Nationalities VALUES ( 0, 682, 'SA', 'SAU', 'Arabia SaudÌ');
+INSERT INTO Nationalities VALUES ( 0, 682, 'SA', 'SAU', 'Arabia Saud√≠');
 INSERT INTO Nationalities VALUES ( 0, 12, 'DZ', 'DZA', 'Argelia');
 INSERT INTO Nationalities VALUES ( 0, 32, 'AR', 'ARG', 'Argentina');
 INSERT INTO Nationalities VALUES ( 0, 51, 'AM', 'ARM', 'Armenia');
 INSERT INTO Nationalities VALUES ( 0, 533, 'AW', 'ABW', 'Aruba');
 INSERT INTO Nationalities VALUES ( 0, 36, 'AU', 'AUS', 'Australia');
 INSERT INTO Nationalities VALUES ( 1, 40, 'AT', 'AUT', 'Austria');
-INSERT INTO Nationalities VALUES ( 0, 31, 'AZ', 'AZE', 'Azerbaiy·n');
+INSERT INTO Nationalities VALUES ( 0, 31, 'AZ', 'AZE', 'Azerbaiy√°n');
 INSERT INTO Nationalities VALUES ( 0, 44, 'BS', 'BHS', 'Bahamas');
-INSERT INTO Nationalities VALUES ( 0, 48, 'BH', 'BHR', 'BahrÈin');
+INSERT INTO Nationalities VALUES ( 0, 48, 'BH', 'BHR', 'Bahr√©in');
 INSERT INTO Nationalities VALUES ( 0, 50, 'BD', 'BGD', 'Bangladesh');
 INSERT INTO Nationalities VALUES ( 0, 52, 'BB', 'BRB', 'Barbados');
 INSERT INTO Nationalities VALUES ( 0, 112, 'BY', 'BLR', 'Bielorrusia');
-INSERT INTO Nationalities VALUES ( 1, 56, 'BE', 'BEL', 'BÈlgica');
+INSERT INTO Nationalities VALUES ( 1, 56, 'BE', 'BEL', 'B√©lgica');
 INSERT INTO Nationalities VALUES ( 0, 84, 'BZ', 'BLZ', 'Belice');
 INSERT INTO Nationalities VALUES ( 0, 204, 'BJ', 'BEN', 'Benin');
 INSERT INTO Nationalities VALUES ( 0, 60, 'BM', 'BMU', 'Bermudas');
-INSERT INTO Nationalities VALUES ( 0, 64, 'BT', 'BTN', 'Bhut·n');
+INSERT INTO Nationalities VALUES ( 0, 64, 'BT', 'BTN', 'Bhut√°n');
 INSERT INTO Nationalities VALUES ( 0, 68, 'BO', 'BOL', 'Bolivia');
 INSERT INTO Nationalities VALUES ( 0, 70, 'BA', 'BIH', 'Bosnia y Herzegovina');
 INSERT INTO Nationalities VALUES ( 0, 72, 'BW', 'BWA', 'Botsuana');
 INSERT INTO Nationalities VALUES ( 0, 74, 'BV', 'BVT', 'Isla Bouvet');
 INSERT INTO Nationalities VALUES ( 0, 76, 'BR', 'BRA', 'Brasil');
-INSERT INTO Nationalities VALUES ( 0, 96, 'BN', 'BRN', 'BrunÈi');
+INSERT INTO Nationalities VALUES ( 0, 96, 'BN', 'BRN', 'Brun√©i');
 INSERT INTO Nationalities VALUES ( 1, 100, 'BG', 'BGR', 'Bulgaria');
 INSERT INTO Nationalities VALUES ( 0, 854, 'BF', 'BFA', 'Burkina Faso');
 INSERT INTO Nationalities VALUES ( 0, 108, 'BI', 'BDI', 'Burundi');
 INSERT INTO Nationalities VALUES ( 0, 132, 'CV', 'CPV', 'Cabo Verde');
-INSERT INTO Nationalities VALUES ( 0, 136, 'KY', 'CYM', 'Islas Caim·n');
+INSERT INTO Nationalities VALUES ( 0, 136, 'KY', 'CYM', 'Islas Caim√°n');
 INSERT INTO Nationalities VALUES ( 0, 116, 'KH', 'KHM', 'Camboya');
-INSERT INTO Nationalities VALUES ( 0, 120, 'CM', 'CMR', 'Camer˙n');
-INSERT INTO Nationalities VALUES ( 0, 124, 'CA', 'CAN', 'Canad·');
-INSERT INTO Nationalities VALUES ( 0, 140, 'CF', 'CAF', 'Rep˙blica Centroafricana');
+INSERT INTO Nationalities VALUES ( 0, 120, 'CM', 'CMR', 'Camer√∫n');
+INSERT INTO Nationalities VALUES ( 0, 124, 'CA', 'CAN', 'Canad√°');
+INSERT INTO Nationalities VALUES ( 0, 140, 'CF', 'CAF', 'Rep√∫blica Centroafricana');
 INSERT INTO Nationalities VALUES ( 0, 148, 'TD', 'TCD', 'Chad');
-INSERT INTO Nationalities VALUES ( 1, 203, 'CZ', 'CZE', 'Rep˙blica Checa');
+INSERT INTO Nationalities VALUES ( 1, 203, 'CZ', 'CZE', 'Rep√∫blica Checa');
 INSERT INTO Nationalities VALUES ( 0, 152, 'CL', 'CHL', 'Chile');
 INSERT INTO Nationalities VALUES ( 0, 156, 'CN', 'CHN', 'China');
 INSERT INTO Nationalities VALUES ( 1, 196, 'CY', 'CYP', 'Chipre');
@@ -103,7 +103,7 @@ INSERT INTO Nationalities VALUES ( 0, 336, 'VA', 'VAT', 'Ciudad del Vaticano');
 INSERT INTO Nationalities VALUES ( 0, 166, 'CC', 'CCK', 'Islas Cocos');
 INSERT INTO Nationalities VALUES ( 0, 170, 'CO', 'COL', 'Colombia');
 INSERT INTO Nationalities VALUES ( 0, 174, 'KM', 'COM', 'Comoras');
-INSERT INTO Nationalities VALUES ( 0, 180, 'CD', 'COD', 'Rep˙blica Democr·tica del Congo');
+INSERT INTO Nationalities VALUES ( 0, 180, 'CD', 'COD', 'Rep√∫blica Democr√°tica del Congo');
 INSERT INTO Nationalities VALUES ( 0, 178, 'CG', 'COG', 'Congo');
 INSERT INTO Nationalities VALUES ( 0, 184, 'CK', 'COK', 'Islas Cook');
 INSERT INTO Nationalities VALUES ( 0, 408, 'KP', 'PRK', 'Corea del Norte');
@@ -114,25 +114,25 @@ INSERT INTO Nationalities VALUES ( 1, 191, 'HR', 'HRV', 'Croacia');
 INSERT INTO Nationalities VALUES ( 0, 192, 'CU', 'CUB', 'Cuba');
 INSERT INTO Nationalities VALUES ( 1, 208, 'DK', 'DNK', 'Dinamarca');
 INSERT INTO Nationalities VALUES ( 0, 212, 'DM', 'DMA', 'Dominica');
-INSERT INTO Nationalities VALUES ( 0, 214, 'DO', 'DOM', 'Rep˙blica Dominicana');
+INSERT INTO Nationalities VALUES ( 0, 214, 'DO', 'DOM', 'Rep√∫blica Dominicana');
 INSERT INTO Nationalities VALUES ( 0, 218, 'EC', 'ECU', 'Ecuador');
 INSERT INTO Nationalities VALUES ( 0, 818, 'EG', 'EGY', 'Egipto');
 INSERT INTO Nationalities VALUES ( 0, 222, 'SV', 'SLV', 'El Salvador');
-INSERT INTO Nationalities VALUES ( 0, 784, 'AE', 'ARE', 'Emiratos ¡rabes Unidos');
+INSERT INTO Nationalities VALUES ( 0, 784, 'AE', 'ARE', 'Emiratos √Årabes Unidos');
 INSERT INTO Nationalities VALUES ( 0, 232, 'ER', 'ERI', 'Eritrea');
 INSERT INTO Nationalities VALUES ( 1, 703, 'SK', 'SVK', 'Eslovaquia');
 INSERT INTO Nationalities VALUES ( 1, 705, 'SI', 'SVN', 'Eslovenia');
-INSERT INTO Nationalities VALUES ( 1, 724, 'ES', 'ESP', 'EspaÒa');
+INSERT INTO Nationalities VALUES ( 1, 724, 'ES', 'ESP', 'Espa√±a');
 INSERT INTO Nationalities VALUES ( 0, 581, 'UM', 'UMI', 'Islas ultramarinas de Estados Unidos');
 INSERT INTO Nationalities VALUES ( 0, 840, 'US', 'USA', 'Estados Unidos');
 INSERT INTO Nationalities VALUES ( 1, 233, 'EE', 'EST', 'Estonia');
-INSERT INTO Nationalities VALUES ( 0, 231, 'ET', 'ETH', 'EtiopÌa');
+INSERT INTO Nationalities VALUES ( 0, 231, 'ET', 'ETH', 'Etiop√≠a');
 INSERT INTO Nationalities VALUES ( 0, 234, 'FO', 'FRO', 'Islas Feroe');
 INSERT INTO Nationalities VALUES ( 0, 608, 'PH', 'PHL', 'Filipinas');
 INSERT INTO Nationalities VALUES ( 0, 246, 'FI', 'FIN', 'Finlandia');
 INSERT INTO Nationalities VALUES ( 0, 242, 'FJ', 'FJI', 'Fiyi');
 INSERT INTO Nationalities VALUES ( 1, 250, 'FR', 'FRA', 'Francia');
-INSERT INTO Nationalities VALUES ( 0, 266, 'GA', 'GAB', 'GabÛn');
+INSERT INTO Nationalities VALUES ( 0, 266, 'GA', 'GAB', 'Gab√≥n');
 INSERT INTO Nationalities VALUES ( 0, 270, 'GM', 'GMB', 'Gambia');
 INSERT INTO Nationalities VALUES ( 0, 268, 'GE', 'GEO', 'Georgia');
 INSERT INTO Nationalities VALUES ( 0, 239, 'GS', 'SGS', 'Islas Georgias del Sur y Sandwich del Sur');
@@ -149,31 +149,31 @@ INSERT INTO Nationalities VALUES ( 0, 324, 'GN', 'GIN', 'Guinea');
 INSERT INTO Nationalities VALUES ( 0, 226, 'GQ', 'GNQ', 'Guinea Ecuatorial');
 INSERT INTO Nationalities VALUES ( 0, 624, 'GW', 'GNB', 'Guinea-Bissau');
 INSERT INTO Nationalities VALUES ( 0, 328, 'GY', 'GUY', 'Guyana');
-INSERT INTO Nationalities VALUES ( 0, 332, 'HT', 'HTI', 'HaitÌ');
+INSERT INTO Nationalities VALUES ( 0, 332, 'HT', 'HTI', 'Hait√≠');
 INSERT INTO Nationalities VALUES ( 0, 334, 'HM', 'HMD', 'Islas Heard y McDonald');
 INSERT INTO Nationalities VALUES ( 0, 340, 'HN', 'HND', 'Honduras');
 INSERT INTO Nationalities VALUES ( 0, 344, 'HK', 'HKG', 'Hong Kong');
-INSERT INTO Nationalities VALUES ( 0, 348, 'HU', 'HUN', 'HungrÌa');
+INSERT INTO Nationalities VALUES ( 0, 348, 'HU', 'HUN', 'Hungr√≠a');
 INSERT INTO Nationalities VALUES ( 0, 356, 'IN', 'IND', 'India');
 INSERT INTO Nationalities VALUES ( 0, 360, 'ID', 'IDN', 'Indonesia');
-INSERT INTO Nationalities VALUES ( 0, 364, 'IR', 'IRN', 'Ir·n');
+INSERT INTO Nationalities VALUES ( 0, 364, 'IR', 'IRN', 'Ir√°n');
 INSERT INTO Nationalities VALUES ( 0, 368, 'IQ', 'IRQ', 'Iraq');
 INSERT INTO Nationalities VALUES ( 1, 372, 'IE', 'IRL', 'Irlanda');
 INSERT INTO Nationalities VALUES ( 0, 352, 'IS', 'ISL', 'Islandia');
 INSERT INTO Nationalities VALUES ( 0, 376, 'IL', 'ISR', 'Israel');
 INSERT INTO Nationalities VALUES ( 1, 380, 'IT', 'ITA', 'Italia');
 INSERT INTO Nationalities VALUES ( 0, 388, 'JM', 'JAM', 'Jamaica');
-INSERT INTO Nationalities VALUES ( 0, 392, 'JP', 'JPN', 'JapÛn');
+INSERT INTO Nationalities VALUES ( 0, 392, 'JP', 'JPN', 'Jap√≥n');
 INSERT INTO Nationalities VALUES ( 0, 400, 'JO', 'JOR', 'Jordania');
-INSERT INTO Nationalities VALUES ( 0, 398, 'KZ', 'KAZ', 'Kazajst·n');
+INSERT INTO Nationalities VALUES ( 0, 398, 'KZ', 'KAZ', 'Kazajst√°n');
 INSERT INTO Nationalities VALUES ( 0, 404, 'KE', 'KEN', 'Kenia');
-INSERT INTO Nationalities VALUES ( 0, 417, 'KG', 'KGZ', 'Kirguist·n');
+INSERT INTO Nationalities VALUES ( 0, 417, 'KG', 'KGZ', 'Kirguist√°n');
 INSERT INTO Nationalities VALUES ( 0, 296, 'KI', 'KIR', 'Kiribati');
 INSERT INTO Nationalities VALUES ( 0, 414, 'KW', 'KWT', 'Kuwait');
 INSERT INTO Nationalities VALUES ( 0, 418, 'LA', 'LAO', 'Laos');
 INSERT INTO Nationalities VALUES ( 0, 426, 'LS', 'LSO', 'Lesotho');
 INSERT INTO Nationalities VALUES ( 1, 428, 'LV', 'LVA', 'Letonia');
-INSERT INTO Nationalities VALUES ( 0, 422, 'LB', 'LBN', 'LÌbano');
+INSERT INTO Nationalities VALUES ( 0, 422, 'LB', 'LBN', 'L√≠bano');
 INSERT INTO Nationalities VALUES ( 0, 430, 'LR', 'LBR', 'Liberia');
 INSERT INTO Nationalities VALUES ( 0, 434, 'LY', 'LBY', 'Libia');
 INSERT INTO Nationalities VALUES ( 0, 438, 'LI', 'LIE', 'Liechtenstein');
@@ -185,7 +185,7 @@ INSERT INTO Nationalities VALUES ( 0, 450, 'MG', 'MDG', 'Madagascar');
 INSERT INTO Nationalities VALUES ( 0, 458, 'MY', 'MYS', 'Malasia');
 INSERT INTO Nationalities VALUES ( 0, 454, 'MW', 'MWI', 'Malawi');
 INSERT INTO Nationalities VALUES ( 0, 462, 'MV', 'MDV', 'Maldivas');
-INSERT INTO Nationalities VALUES ( 0, 466, 'ML', 'MLI', 'MalÌ');
+INSERT INTO Nationalities VALUES ( 0, 466, 'ML', 'MLI', 'Mal√≠');
 INSERT INTO Nationalities VALUES ( 1, 470, 'MT', 'MLT', 'Malta');
 INSERT INTO Nationalities VALUES ( 0, 238, 'FK', 'FLK', 'Islas Malvinas');
 INSERT INTO Nationalities VALUES ( 0, 580, 'MP', 'MNP', 'Islas Marianas del Norte');
@@ -195,10 +195,10 @@ INSERT INTO Nationalities VALUES ( 0, 474, 'MQ', 'MTQ', 'Martinica');
 INSERT INTO Nationalities VALUES ( 0, 480, 'MU', 'MUS', 'Mauricio');
 INSERT INTO Nationalities VALUES ( 0, 478, 'MR', 'MRT', 'Mauritania');
 INSERT INTO Nationalities VALUES ( 0, 175, 'YT', 'MYT', 'Mayotte');
-INSERT INTO Nationalities VALUES ( 0, 484, 'MX', 'MEX', 'MÈxico');
+INSERT INTO Nationalities VALUES ( 0, 484, 'MX', 'MEX', 'M√©xico');
 INSERT INTO Nationalities VALUES ( 0, 583, 'FM', 'FSM', 'Micronesia');
 INSERT INTO Nationalities VALUES ( 0, 498, 'MD', 'MDA', 'Moldavia');
-INSERT INTO Nationalities VALUES ( 0, 492, 'MC', 'MCO', 'MÛnaco');
+INSERT INTO Nationalities VALUES ( 0, 492, 'MC', 'MCO', 'M√≥naco');
 INSERT INTO Nationalities VALUES ( 0, 496, 'MN', 'MNG', 'Mongolia');
 INSERT INTO Nationalities VALUES ( 0, 500, 'MS', 'MSR', 'Montserrat');
 INSERT INTO Nationalities VALUES ( 0, 508, 'MZ', 'MOZ', 'Mozambique');
@@ -207,22 +207,22 @@ INSERT INTO Nationalities VALUES ( 0, 516, 'NA', 'NAM', 'Namibia');
 INSERT INTO Nationalities VALUES ( 0, 520, 'NR', 'NRU', 'Nauru');
 INSERT INTO Nationalities VALUES ( 0, 524, 'NP', 'NPL', 'Nepal');
 INSERT INTO Nationalities VALUES ( 0, 558, 'NI', 'NIC', 'Nicaragua');
-INSERT INTO Nationalities VALUES ( 0, 562, 'NE', 'NER', 'NÌger');
+INSERT INTO Nationalities VALUES ( 0, 562, 'NE', 'NER', 'N√≠ger');
 INSERT INTO Nationalities VALUES ( 0, 566, 'NG', 'NGA', 'Nigeria');
 INSERT INTO Nationalities VALUES ( 0, 570, 'NU', 'NIU', 'Niue');
 INSERT INTO Nationalities VALUES ( 0, 574, 'NF', 'NFK', 'Isla Norfolk');
 INSERT INTO Nationalities VALUES ( 0, 578, 'NO', 'NOR', 'Noruega');
 INSERT INTO Nationalities VALUES ( 0, 540, 'NC', 'NCL', 'Nueva Caledonia');
 INSERT INTO Nationalities VALUES ( 0, 554, 'NZ', 'NZL', 'Nueva Zelanda');
-INSERT INTO Nationalities VALUES ( 0, 512, 'OM', 'OMN', 'Om·n');
-INSERT INTO Nationalities VALUES ( 1, 528, 'NL', 'NLD', 'PaÌses Bajos');
-INSERT INTO Nationalities VALUES ( 0, 586, 'PK', 'PAK', 'Pakist·n');
+INSERT INTO Nationalities VALUES ( 0, 512, 'OM', 'OMN', 'Om√°n');
+INSERT INTO Nationalities VALUES ( 1, 528, 'NL', 'NLD', 'Pa√≠ses Bajos');
+INSERT INTO Nationalities VALUES ( 0, 586, 'PK', 'PAK', 'Pakist√°n');
 INSERT INTO Nationalities VALUES ( 0, 585, 'PW', 'PLW', 'Palau');
 INSERT INTO Nationalities VALUES ( 0, 275, 'PS', 'PSE', 'Palestina');
-INSERT INTO Nationalities VALUES ( 0, 591, 'PA', 'PAN', 'Panam·');
-INSERT INTO Nationalities VALUES ( 0, 598, 'PG', 'PNG', 'Pap˙a Nueva Guinea');
+INSERT INTO Nationalities VALUES ( 0, 591, 'PA', 'PAN', 'Panam√°');
+INSERT INTO Nationalities VALUES ( 0, 598, 'PG', 'PNG', 'Pap√∫a Nueva Guinea');
 INSERT INTO Nationalities VALUES ( 0, 600, 'PY', 'PRY', 'Paraguay');
-INSERT INTO Nationalities VALUES ( 0, 604, 'PE', 'PER', 'Per˙');
+INSERT INTO Nationalities VALUES ( 0, 604, 'PE', 'PER', 'Per√∫');
 INSERT INTO Nationalities VALUES ( 0, 612, 'PN', 'PCN', 'Islas Pitcairn');
 INSERT INTO Nationalities VALUES ( 0, 258, 'PF', 'PYF', 'Polinesia Francesa');
 INSERT INTO Nationalities VALUES ( 1, 616, 'PL', 'POL', 'Polonia');
@@ -230,21 +230,21 @@ INSERT INTO Nationalities VALUES ( 1, 620, 'PT', 'PRT', 'Portugal');
 INSERT INTO Nationalities VALUES ( 0, 630, 'PR', 'PRI', 'Puerto Rico');
 INSERT INTO Nationalities VALUES ( 0, 634, 'QA', 'QAT', 'Qatar');
 INSERT INTO Nationalities VALUES ( 1, 826, 'GB', 'GBR', 'Reino Unido');
-INSERT INTO Nationalities VALUES ( 0, 638, 'RE', 'REU', 'ReuniÛn');
+INSERT INTO Nationalities VALUES ( 0, 638, 'RE', 'REU', 'Reuni√≥n');
 INSERT INTO Nationalities VALUES ( 0, 646, 'RW', 'RWA', 'Ruanda');
 INSERT INTO Nationalities VALUES ( 1, 642, 'RO', 'ROU', 'Rumania');
 INSERT INTO Nationalities VALUES ( 0, 643, 'RU', 'RUS', 'Rusia');
 INSERT INTO Nationalities VALUES ( 0, 732, 'EH', 'ESH', 'Sahara Occidental');
-INSERT INTO Nationalities VALUES ( 0, 90, 'SB', 'SLB', 'Islas SalomÛn');
+INSERT INTO Nationalities VALUES ( 0, 90, 'SB', 'SLB', 'Islas Salom√≥n');
 INSERT INTO Nationalities VALUES ( 0, 882, 'WS', 'WSM', 'Samoa');
 INSERT INTO Nationalities VALUES ( 0, 16, 'AS', 'ASM', 'Samoa Americana');
-INSERT INTO Nationalities VALUES ( 0, 659, 'KN', 'KNA', 'San CristÛbal y Nevis');
+INSERT INTO Nationalities VALUES ( 0, 659, 'KN', 'KNA', 'San Crist√≥bal y Nevis');
 INSERT INTO Nationalities VALUES ( 0, 674, 'SM', 'SMR', 'San Marino');
-INSERT INTO Nationalities VALUES ( 0, 666, 'PM', 'SPM', 'San Pedro y MiquelÛn');
+INSERT INTO Nationalities VALUES ( 0, 666, 'PM', 'SPM', 'San Pedro y Miquel√≥n');
 INSERT INTO Nationalities VALUES ( 0, 670, 'VC', 'VCT', 'San Vicente y las Granadinas');
 INSERT INTO Nationalities VALUES ( 0, 654, 'SH', 'SHN', 'Santa Helena');
-INSERT INTO Nationalities VALUES ( 0, 662, 'LC', 'LCA', 'Santa LucÌa');
-INSERT INTO Nationalities VALUES ( 0, 678, 'ST', 'STP', 'Santo TomÈ y PrÌncipe');
+INSERT INTO Nationalities VALUES ( 0, 662, 'LC', 'LCA', 'Santa Luc√≠a');
+INSERT INTO Nationalities VALUES ( 0, 678, 'ST', 'STP', 'Santo Tom√© y Pr√≠ncipe');
 INSERT INTO Nationalities VALUES ( 0, 686, 'SN', 'SEN', 'Senegal');
 INSERT INTO Nationalities VALUES ( 0, 891, 'CS', 'SCG', 'Serbia y Montenegro');
 INSERT INTO Nationalities VALUES ( 0, 690, 'SC', 'SYC', 'Seychelles');
@@ -254,37 +254,37 @@ INSERT INTO Nationalities VALUES ( 0, 760, 'SY', 'SYR', 'Siria');
 INSERT INTO Nationalities VALUES ( 0, 706, 'SO', 'SOM', 'Somalia');
 INSERT INTO Nationalities VALUES ( 0, 144, 'LK', 'LKA', 'Sri Lanka');
 INSERT INTO Nationalities VALUES ( 0, 748, 'SZ', 'SWZ', 'Suazilandia');
-INSERT INTO Nationalities VALUES ( 0, 710, 'ZA', 'ZAF', 'Sud·frica');
-INSERT INTO Nationalities VALUES ( 0, 736, 'SD', 'SDN', 'Sud·n');
+INSERT INTO Nationalities VALUES ( 0, 710, 'ZA', 'ZAF', 'Sud√°frica');
+INSERT INTO Nationalities VALUES ( 0, 736, 'SD', 'SDN', 'Sud√°n');
 INSERT INTO Nationalities VALUES ( 1, 752, 'SE', 'SWE', 'Suecia');
 INSERT INTO Nationalities VALUES ( 0, 756, 'CH', 'CHE', 'Suiza');
 INSERT INTO Nationalities VALUES ( 0, 740, 'SR', 'SUR', 'Surinam');
 INSERT INTO Nationalities VALUES ( 0, 744, 'SJ', 'SJM', 'Svalbard y Jan Mayen');
 INSERT INTO Nationalities VALUES ( 0, 764, 'TH', 'THA', 'Tailandia');
-INSERT INTO Nationalities VALUES ( 0, 158, 'TW', 'TWN', 'Taiw·n');
+INSERT INTO Nationalities VALUES ( 0, 158, 'TW', 'TWN', 'Taiw√°n');
 INSERT INTO Nationalities VALUES ( 0, 834, 'TZ', 'TZA', 'Tanzania');
-INSERT INTO Nationalities VALUES ( 0, 762, 'TJ', 'TJK', 'Tayikist·n');
-INSERT INTO Nationalities VALUES ( 0, 86, 'IO', 'IOT', 'Territorio Brit·nico del OcÈano Õndico');
+INSERT INTO Nationalities VALUES ( 0, 762, 'TJ', 'TJK', 'Tayikist√°n');
+INSERT INTO Nationalities VALUES ( 0, 86, 'IO', 'IOT', 'Territorio Brit√°nico del Oc√©ano √çndico');
 INSERT INTO Nationalities VALUES ( 0, 260, 'TF', 'ATF', 'Territorios Australes Franceses');
 INSERT INTO Nationalities VALUES ( 0, 626, 'TL', 'TLS', 'Timor Oriental');
 INSERT INTO Nationalities VALUES ( 0, 768, 'TG', 'TGO', 'Togo');
 INSERT INTO Nationalities VALUES ( 0, 772, 'TK', 'TKL', 'Tokelau');
 INSERT INTO Nationalities VALUES ( 0, 776, 'TO', 'TON', 'Tonga');
 INSERT INTO Nationalities VALUES ( 0, 780, 'TT', 'TTO', 'Trinidad y Tobago');
-INSERT INTO Nationalities VALUES ( 0, 788, 'TN', 'TUN', 'T˙nez');
+INSERT INTO Nationalities VALUES ( 0, 788, 'TN', 'TUN', 'T√∫nez');
 INSERT INTO Nationalities VALUES ( 0, 796, 'TC', 'TCA', 'Islas Turcas y Caicos');
-INSERT INTO Nationalities VALUES ( 0, 795, 'TM', 'TKM', 'Turkmenist·n');
-INSERT INTO Nationalities VALUES ( 0, 792, 'TR', 'TUR', 'TurquÌa');
+INSERT INTO Nationalities VALUES ( 0, 795, 'TM', 'TKM', 'Turkmenist√°n');
+INSERT INTO Nationalities VALUES ( 0, 792, 'TR', 'TUR', 'Turqu√≠a');
 INSERT INTO Nationalities VALUES ( 0, 798, 'TV', 'TUV', 'Tuvalu');
 INSERT INTO Nationalities VALUES ( 0, 804, 'UA', 'UKR', 'Ucrania');
 INSERT INTO Nationalities VALUES ( 0, 800, 'UG', 'UGA', 'Uganda');
 INSERT INTO Nationalities VALUES ( 0, 858, 'UY', 'URY', 'Uruguay');
-INSERT INTO Nationalities VALUES ( 0, 860, 'UZ', 'UZB', 'Uzbekist·n');
+INSERT INTO Nationalities VALUES ( 0, 860, 'UZ', 'UZB', 'Uzbekist√°n');
 INSERT INTO Nationalities VALUES ( 0, 548, 'VU', 'VUT', 'Vanuatu');
 INSERT INTO Nationalities VALUES ( 0, 862, 'VE', 'VEN', 'Venezuela');
 INSERT INTO Nationalities VALUES ( 0, 704, 'VN', 'VNM', 'Vietnam');
-INSERT INTO Nationalities VALUES ( 0, 92, 'VG', 'VGB', 'Islas VÌrgenes Brit·nicas');
-INSERT INTO Nationalities VALUES ( 0, 850, 'VI', 'VIR', 'Islas VÌrgenes de los Estados Unidos');
+INSERT INTO Nationalities VALUES ( 0, 92, 'VG', 'VGB', 'Islas V√≠rgenes Brit√°nicas');
+INSERT INTO Nationalities VALUES ( 0, 850, 'VI', 'VIR', 'Islas V√≠rgenes de los Estados Unidos');
 INSERT INTO Nationalities VALUES ( 0, 876, 'WF', 'WLF', 'Wallis y Futuna');
 INSERT INTO Nationalities VALUES ( 0, 887, 'YE', 'YEM', 'Yemen');
 INSERT INTO Nationalities VALUES ( 0, 262, 'DJ', 'DJI', 'Yibuti');
@@ -306,7 +306,7 @@ BEGIN
 END
 ELSE
 BEGIN
-    PRINT 'Table doesn¥t exists, drop not necessary';
+    PRINT 'Table doesn¬¥t exists, drop not necessary';
 END
 GO
 
@@ -324,8 +324,8 @@ CREATE TABLE Users(
 	--, CP				VARCHAR (5) NOT NULL
 	, Town				VARCHAR (50) NOT NULL
 	--, NationalityID		TINYINT  NULL
-	, Driver			BIT NULL				-- PB: En vez de tener 2 tablas (Users & UsersDrivers), podrÌas tener sÛlo 1, y haciendo este campo como opcional (permite NULLs)
-	--, PointsObtained	SMALLMONEY NULL			-- JM: Modificado! ;)
+	, Driver			BIT NULL				
+	--, PointsObtained	SMALLMONEY NULL
 	--, PointsSpent		SMALLMONEY NULL
 	--, MoneyObtained		SMALLMONEY NULL
 	--, MoneySpent		SMALLMONEY NULL
@@ -356,7 +356,7 @@ BEGIN
 END
 ELSE
 BEGIN
-    PRINT 'Table doesn¥t exists, drop not necessary';
+    PRINT 'Table doesn¬¥t exists, drop not necessary';
 END
 GO
 
@@ -394,16 +394,16 @@ BEGIN
 END
 ELSE
 BEGIN
-    PRINT 'Table doesn¥t exists, drop not necessary';
+    PRINT 'Table doesn¬¥t exists, drop not necessary';
 END
 GO
 
 CREATE TABLE [Routes](
 	RouteID		INT IDENTITY(1,1) NOT NULL
 	, UserID 			INT NOT NULL
-	, UserDriverID 		INT NOT NULL				-- JM: Ahora como podrÌa hacer para que aparecieran el usuario transportado y el conductor?
-	, RouteStart		VARCHAR (21) NOT NULL		-- ya que la unica forma de reconocerlos es que tengan "1" en campo "Driver" ø? 
-	, RouteStop			VARCHAR (21) NOT NULL		-- podrÌa crear "UserDriverId" fk a UserID no? Ya desde la APP le meterÌa el usuario identificado como conductor, verdad?	
+	, UserDriverID 		INT NOT NULL			
+	, RouteStart		VARCHAR (21) NOT NULL		
+	, RouteStop			VARCHAR (21) NOT NULL		
 	, Distance			VARCHAR (3) NOT NULL
 	, TimeStart			DATETIME2(2) NOT NULL		
 	, TimeStop			DATETIME2(2) NOT NULL
@@ -430,6 +430,6 @@ GO
 --GO
 
 
--- PB: Muy bien todo en general! SÛlo algunos detallitos por refinar, pero el script muy bien. Sigue asÌ!
+-- PB: Muy bien todo en general! S√≥lo algunos detallitos por refinar, pero el script muy bien. Sigue as√≠!
 -- Cualquier otra duda, ya me dices
 
